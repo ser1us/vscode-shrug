@@ -1,0 +1,43 @@
+{
+  "name": "shruggoff",
+  "displayName": "ShrugOff",
+  "description": "Add a shrug ascii text at your current cursor position :)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ],
+    "commands": [
+      {
+        "title": "Insert shrug at current position",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+          "langId": "",
+          "name": "shrug"
+        }
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "Ctrl+U Ctrl+U",
+        "title": "Insert shrug at current position",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+          "langId": "",
+          "name": "shrug"
+        }
+      }
+    ]
+  }
+}
