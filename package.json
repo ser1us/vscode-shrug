@@ -49,7 +49,7 @@
       }
     ]
   },
-  "dependencies": {
+  "devDependencies": {
     "vsce": "^2.7.0"
   }
 }
