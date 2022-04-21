@@ -13,7 +13,7 @@
     "vscode": "^1.66.0"
   },
   "scripts": {
-    "deploy": "vsce publish --yarn"
+    "deploy": "vsce publish"
   },
   "categories": [
     "Snippets"
