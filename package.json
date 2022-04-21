@@ -3,6 +3,7 @@
   "displayName": "Shrug",
   "description": "Add a shrug ascii emoji at your current cursor position :)",
   "publisher": "Christoph Lipp",
+  "icon": "icons/xtr-shrug-1.png",
   "repository": "https://github.com/ser1us/vscode-shrug",
   "bugs": {
     "url": "https://github.com/ser1us/vscode-shrug/issues"
