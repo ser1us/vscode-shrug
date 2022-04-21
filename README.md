@@ -1,4 +1,4 @@
-# \_(ツ)_/¯
+# ¯\\_(ツ)_/¯
 
 This extension will add a snippet to insert an ascii shrug at the current cursor position. Or, right after the selected text. 
 
