@@ -2,7 +2,7 @@
 
 This extension will add a snippet to insert an ascii shrug at the current cursor position. Or, right after the selected text. 
 
-Sometimes there are simply no words for the current code and that is when this extension comes in handy :)
+Sometimes there are simply no words to describe a situation. And that is when this extension comes in handy :)
 
 
 ## Features
