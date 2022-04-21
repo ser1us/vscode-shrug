@@ -4,9 +4,9 @@ This extension will add a snippet to insert an ascii shrug at the current cursor
 
 Sometimes there are simply no words to describe a situation. And that is when this extension comes in handy :)
 
-![Alt text](icons/xtr-shrug-1.png?raw=true "Shrug 1")
-![Alt text](icons/xtr-shrug-2.png?raw=true "Shrug 2")
-![Alt text](icons/xtr-shrug-3.png?raw=true "Shrug 3")
+![Shrug icon #1](icons/xtr-shrug-1.png?raw=true "Shrug 1")
+![Shrug icon #2](icons/xtr-shrug-2.png?raw=true "Shrug 2")
+![Shrug icon #3](icons/xtr-shrug-3.png?raw=true "Shrug 3")
 
 ## Features
 
