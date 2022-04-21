@@ -1,10 +1,13 @@
 {
   "name": "shruggoff",
-  "displayName": "ShrugOff",
-  "description": "Add a shrug ascii text at your current cursor position :)",
-  "version": "0.0.1",
+  "displayName": "Shrug",
+  "description": "Add a shrug ascii emoji at your current cursor position :)",
+  "version": "0.0.1", 
   "engines": {
     "vscode": "^1.66.0"
+  },
+  "scripts": {
+    "deploy": "vsce publish --yarn"
   },
   "categories": [
     "Snippets"
