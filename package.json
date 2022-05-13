@@ -8,12 +8,12 @@
   "bugs": {
     "url": "https://github.com/ser1us/vscode-shrug/issues"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.66.0"
   },
   "scripts": {
-    "deploy": "vsce publish --yarn"
+    "deploy": "vsce publish"
   },
   "categories": [
     "Snippets"
@@ -49,7 +49,7 @@
       }
     ]
   },
-  "dependencies": {
+  "devDependencies": {
     "vsce": "^2.7.0"
   }
 }
