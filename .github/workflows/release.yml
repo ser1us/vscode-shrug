@@ -47,6 +47,6 @@ jobs:
 
     - name: Publish
       if: success() && startsWith( github.ref, 'refs/tags/releases/') && matrix.os == 'ubuntu-latest'
-      run: pnpm run vsce publish
+      run: pnpm vsce publish
       env:
         VSCE_PAT: ${{ secrets.VSCE_PAT }}

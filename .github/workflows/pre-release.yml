@@ -47,6 +47,6 @@ jobs:
 
     - name: Publish
       if: success() && matrix.os == 'ubuntu-latest'
-      run: pnpm run vsce publish --pre-release
+      run: pnpm vsce publish --pre-release
       env:
         VSCE_PAT: ${{ secrets.VSCE_PAT }}
