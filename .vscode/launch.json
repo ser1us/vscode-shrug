@@ -6,10 +6,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Extension",
-      "type": "extensionHost",
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
+      "name": "Launch Extension",
+      "outFiles": ["${workspaceFolder}/out/**/*.js"],
       "request": "launch",
-      "args": ["--extensionDevelopmentPath=${workspaceFolder}"]
+      "type": "extensionHost"
     }
   ]
 }
